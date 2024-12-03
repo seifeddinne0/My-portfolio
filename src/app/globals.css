@@ -1,42 +1,45 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+#navbar{
+    background-color: #151515;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+#navbarNavAltMarkup{
+    justify-content:end ;
+}
+.ramaraja-regular {
+    font-family: "Ramaraja", serif;
+    font-style: normal;
   }
+ h1{
+    font-family: "Source Serif 4", serif;
+ }
+ .red{
+    color: red;
+ }
+ .h1-wrap-balance{
+    text-wrap: balance;
+ }
+ @media screen and (max-width: 480px){
+    .Mobile-contact{
+        flex-direction: column;
+    }
+    .Form-mobile{
+      width: 85%;
+      margin: auto;
+    }
+    .image-hover{
+      max-width: 105px !important;
+    }
+ }
+ @media screen and (min-width: 490px){
+   .Form-mobile{
+     width: 50%;
+   }
 }
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.card-img-top{
+   transition: 0.3s;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.image-hover{
+    width: 10rem;
 }
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.image-hover :hover {
+   transform: scale(1.05);
 }
