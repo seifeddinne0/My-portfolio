@@ -2,7 +2,7 @@ function Nav(){
     return(
         <nav className="navbar navbar-expand-lg fixed-top"
         id="navbar" >
-        <div className="container">
+        <div className="container-fluid">
               <a href="#Home" className="text-decoration-none "><h4 className="ms-3 text-danger">Seif Eddine</h4></a> 
               <button className="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
