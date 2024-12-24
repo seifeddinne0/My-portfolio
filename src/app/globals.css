@@ -1,6 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html{
+  background-color:#262626 ;
+}
+.tenali-ramakrishna-regular {
+  font-family: "Tenali Ramakrishna", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ramaraja-regular {
+  font-family: "Ramaraja", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.source-serif-4 {
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: roman;
+}
+
 
 :root {
   --background: #ffffff;
