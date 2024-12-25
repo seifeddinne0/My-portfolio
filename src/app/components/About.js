@@ -10,7 +10,7 @@ function About(){
         <div className="justify-center p-5 sm:p-3 h-full max-w-[600px] mx-auto">
           <Image className="rounded-full w-3/4 md:rounded-lg lg:w-1/2 lg:h-1/2 mx-auto"src="/AboutPhoto.jpg" alt="profile Photo" width={700} height={700} />
         </div>
-        <div className="flex justify-center items-center max-w-[700px] mx-auto p-5">
+        <div className="flex justify-center items-center max-w-[700px] mx-auto p-5 rounded-xl bg-black bg-opacity-20">
           <p className="text-wrap source-serif-4 text-lg text-white md:text-lg">I&apos;m a Computer science student with a deep enthusiasm for technology and hands-on experience in front-end development. I enjoy bringing creative designs to life on the web and exploring data to uncover insights. With a background in robotics and experience with Arduino, I’m always eager to learn new technologies and take on challenges that push my boundaries.</p>
         </div>
       </div>
