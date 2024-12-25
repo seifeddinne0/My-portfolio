@@ -3,12 +3,12 @@ import Horizontaline from "./Horizontaline";
 function Contact(){
     return (
       
-<div>
+<div id="Contact">
       <Horizontaline>
-        <h1 className="mx-2 text-2xl tenali-ramakrishna-regular text-center text-red-600">Contact Me</h1>
+        <h1 className="mx-2 text-2xl tenali-ramakrishna-regular text-center text-red-600" >Contact Me</h1>
       </Horizontaline>
 
-        <div className="mx-auto max-w-2xl text-center">
+        <div className="mx-auto max-w-2xl text-center" >
           <p className="mt-2 text-lg/8 texredoutline-red-500">Let&apos;s create something together.</p>
         </div>
         <form action="https://formspree.io/f/xyzzzdzr" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">

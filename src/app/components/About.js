@@ -2,7 +2,7 @@ import Image from "next/image";
 import Horizontaline from "./Horizontaline";
 function About(){
     return(
-      <div>
+      <div id="About">
         <Horizontaline>
           <h1 className="mx-2 tenali-ramakrishna-regular text-2xl text-center text-red-600">About Me</h1>
         </Horizontaline>
