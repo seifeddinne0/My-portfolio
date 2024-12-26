@@ -1,3 +1,5 @@
+"use client"
+
 import Portfoliocard from "./Portfoliocard";
 import Horizontaline from "./Horizontaline";
 function Portfolio () {
