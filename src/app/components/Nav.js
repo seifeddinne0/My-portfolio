@@ -1,10 +1,10 @@
-"use client"
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState, useEffect, useRef } from "react";
 import { IoClose } from "react-icons/io5";
-import { FaRegUser,FaFolderOpen,FaEnvelope } from "react-icons/fa";
+import { FaRegUser, FaFolderOpen, FaEnvelope } from "react-icons/fa";
 
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,6 +16,20 @@ function Nav() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  // Disable scrolling when menu is open
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = "hidden"; // Disable scrolling
+    } else {
+      document.body.style.overflow = ""; // Enable scrolling
+    }
+
+    // Cleanup on component unmount
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isMenuOpen]);
 
   // Close the menu if clicked outside of the sidebar
   useEffect(() => {
@@ -32,7 +46,7 @@ function Nav() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-black shadow z-10">
       <div className="px-4 flex place-items-center justify-between py-2">
-        <Link href="#Hero" className="text-decoration-none">
+        <Link href="/" className="text-decoration-none">
           <h4 className="text-red-600 montserrat font-bold text-2xl">
             Seif Eddine
           </h4>
@@ -59,19 +73,26 @@ function Nav() {
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out z-20`}
       >
-        <div className="px-6 py-7 mt-5 items-center" >
-        <div>
-          <Image src="/profileSide.jpg" alt="Profile" width={100} height={100} className="rounded-full mx-auto mt-5 mb-5"/>
-        </div>
-        
+        <div className="px-6 py-7 mt-5 items-center">
+          <div>
+            <Image
+              src="/profileSide.jpg"
+              alt="Profile"
+              width={100}
+              height={100}
+              className="rounded-full mx-auto mt-5 mb-5"
+            />
+          </div>
+
           <Link
             className="flex justify-around montserrat text-lg text-red-600 pt-4 hover:text-red-800"
             href="#About"
             onClick={() => setIsMenuOpen(false)} // Close the sidebar when link is clicked
-          ><FaRegUser className="size-6 text-red-800 "/>
+          >
+            <FaRegUser className="size-6 text-red-800 " />
             About Me
           </Link>
-          
+
           <Link
             className="flex justify-around montserrat mb-4 text-lg text-red-600 pt-4 hover:text-red-800 "
             href="#Portfolio"
@@ -79,29 +100,38 @@ function Nav() {
           >
             <FaFolderOpen className="size-6 text-red-800" /> Portfolio
           </Link>
-          
-          
+
           <Link
             className="flex justify-around montserrat text-lg text-red-600 hover:text-red-800"
             href="#Contact"
             onClick={() => setIsMenuOpen(false)} // Close the sidebar when link is clicked
-          ><FaEnvelope className="size-6 text-red-800" />
+          >
+            <FaEnvelope className="size-6 text-red-800" />
             Contact
           </Link>
-      </div>
+        </div>
       </div>
 
       {/* Main content, push the page content when sidebar is open */}
       <div
-        className= "md:flex hidden items-center space-x-4 px-4 py-2 absolute top-0 right-0 z-10"
+        className="md:flex hidden items-center space-x-4 px-4 py-2 absolute top-0 right-0 z-10"
       >
-        <a className="montserrat text-lg text-red-600 hover:text-red-800" href="#About">
+        <a
+          className="montserrat text-lg text-red-600 hover:text-red-800"
+          href="#About"
+        >
           About
         </a>
-        <a className="montserrat text-lg text-red-600 hover:text-red-800" href="#Portfolio">
+        <a
+          className="montserrat text-lg text-red-600 hover:text-red-800"
+          href="#Portfolio"
+        >
           Portfolio
         </a>
-        <a className="montserrat text-lg text-red-600 hover:text-red-800" href="#Contact">
+        <a
+          className="montserrat text-lg text-red-600 hover:text-red-800"
+          href="#Contact"
+        >
           Contact
         </a>
       </div>

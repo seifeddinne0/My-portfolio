@@ -9,9 +9,14 @@ function Contact(){
         <h1 className="mx-2 text-2xl montserrat text-center text-red-600" >Contact Me</h1>
       </Horizontaline>
 
-        <div className="mx-auto max-w-2xl text-center" >
+        <motion.div 
+        initial={{y:100,opacity:0}} 
+        whileInView={{y:0,opacity:1}} 
+        transition={{duration:0.5}}
+
+        className="mx-auto max-w-2xl text-center" >
           <p className="mt-2 text-lg/8 texredoutline-red-500">Let&apos;s create something together.</p>
-        </div>
+        </motion.div>
         <form action="https://formspree.io/f/xyzzzdzr" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <motion.div initial={{x:-100,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:1}}>
@@ -48,7 +53,7 @@ function Contact(){
             </motion.div>
           </div>
           <motion.div initial={{x:-100,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:1}} className="mt-10">
-            <button type="submit" className="block w-10/12 mx-auto rounded-md bg-red-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500">Contact Me</button>
+            <motion.button whileTap={{scale:0.9}} type="submit" className="block w-10/12 mx-auto rounded-md bg-red-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500">Contact Me</motion.button>
           </motion.div>
         </form>
       </div>
