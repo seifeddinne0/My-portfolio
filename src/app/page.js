@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import VantaNet from "./components/VantaNet";
 export default function Home() {
   return (
-    <div style={{ position: "relative", zIndex: 1 }} id="Hero">
+    <div className="overflow-x-hidden" style={{ position: "relative", zIndex: 1 }} id="Hero">
       <VantaNet/>
       <Nav/>
       <Presentation/>
