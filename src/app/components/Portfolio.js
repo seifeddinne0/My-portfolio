@@ -4,7 +4,7 @@ function Portfolio () {
   return (
     <section className="mt-5 mb-5 mx-4" id="Portfolio">
       <Horizontaline>
-      <h1 className="mx-2 text-2xl tenali-ramakrishna-regular text-center text-red-600">My Portfolio</h1>
+      <h1 className="mx-2 text-2xl montserrat text-center text-red-600">My Portfolio</h1>
         </Horizontaline>
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
     <Portfoliocard thumbnail="/KamikazeStore.png" altName="KamikazeStore">

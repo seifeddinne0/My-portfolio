@@ -33,7 +33,7 @@ function Nav() {
     <nav className="fixed top-0 left-0 w-full bg-black shadow z-10">
       <div className="px-4 flex place-items-center justify-between py-2">
         <Link href="#Hero" className="text-decoration-none">
-          <h4 className="text-red-600 ramaraja-regular font-bold text-2xl">
+          <h4 className="text-red-600 montserrat font-bold text-2xl">
             Seif Eddine
           </h4>
         </Link>
@@ -65,7 +65,7 @@ function Nav() {
         </div>
         
           <Link
-            className="flex justify-around text-lg text-red-600 pt-4 hover:text-red-800"
+            className="flex justify-around montserrat text-lg text-red-600 pt-4 hover:text-red-800"
             href="#About"
             onClick={() => setIsMenuOpen(false)} // Close the sidebar when link is clicked
           ><FaRegUser className="size-6 text-red-800 "/>
@@ -73,7 +73,7 @@ function Nav() {
           </Link>
           
           <Link
-            className="flex justify-around mb-4 text-lg text-red-600 pt-4 hover:text-red-800 "
+            className="flex justify-around montserrat mb-4 text-lg text-red-600 pt-4 hover:text-red-800 "
             href="#Portfolio"
             onClick={() => setIsMenuOpen(false)} // Close the sidebar when link is clicked
           >
@@ -82,7 +82,7 @@ function Nav() {
           
           
           <Link
-            className="flex justify-around text-lg text-red-600 hover:text-red-800"
+            className="flex justify-around montserrat text-lg text-red-600 hover:text-red-800"
             href="#Contact"
             onClick={() => setIsMenuOpen(false)} // Close the sidebar when link is clicked
           ><FaEnvelope className="size-6 text-red-800" />
@@ -95,13 +95,13 @@ function Nav() {
       <div
         className= "md:flex hidden items-center space-x-4 px-4 py-2 absolute top-0 right-0 z-10"
       >
-        <a className="ramaraja-regular text-lg text-red-600 hover:text-red-800" href="#About">
+        <a className="montserrat text-lg text-red-600 hover:text-red-800" href="#About">
           About
         </a>
-        <a className="ramaraja-regular text-lg text-red-600 hover:text-red-800" href="#Portfolio">
+        <a className="montserrat text-lg text-red-600 hover:text-red-800" href="#Portfolio">
           Portfolio
         </a>
-        <a className="ramaraja-regular text-lg text-red-600 hover:text-red-800" href="#Contact">
+        <a className="montserrat text-lg text-red-600 hover:text-red-800" href="#Contact">
           Contact
         </a>
       </div>

@@ -5,7 +5,7 @@ function Contact(){
       
 <div id="Contact">
       <Horizontaline>
-        <h1 className="mx-2 text-2xl tenali-ramakrishna-regular text-center text-red-600" >Contact Me</h1>
+        <h1 className="mx-2 text-2xl montserrat text-center text-red-600" >Contact Me</h1>
       </Horizontaline>
 
         <div className="mx-auto max-w-2xl text-center" >

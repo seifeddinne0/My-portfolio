@@ -5,7 +5,7 @@ function Skills(){
     return(
       <div>
         <Horizontaline>
-          <h1 className="mx-2 text-2xl tenali-ramakrishna-regular text-center text-red-600">My Skills</h1>
+          <h1 className="mx-2 text-2xl montserrat text-center text-red-600">My Skills</h1>
         </Horizontaline>     
         <div className="flex flex-wrap items-center justify-center gap-4">
         <Skillscard srcImg="/nextJs.png"altImg="Next" />
