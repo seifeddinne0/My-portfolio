@@ -21,18 +21,17 @@ export default function Home() {
 }, []);
 
   return (
-    <div className="overflow-x-hidden" style={{ position: "relative", zIndex: 1 }} id="Hero">
-      <div>
-       {isLoading ? <Loading /> : <></>}
-      </div>
-      <VantaNet/>
-      <Nav/>
-      <Presentation/>
-      <About/>
-      <Skills/> 
-      <Portfolio/> 
-      <Contact/>
-      <Footer/>
-    </div>
+    <>
+       {isLoading ? <Loading /> :  <div className="overflow-x-hidden" style={{ position: "relative", zIndex: 1 }} id="Hero">
+       <VantaNet/>
+       <Nav/>
+       <Presentation/>
+       <About/>
+       <Skills/> 
+       <Portfolio/> 
+       <Contact/>
+       <Footer/>
+     </div>}
+     </>
   );
 }
