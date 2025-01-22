@@ -75,6 +75,10 @@ function Nav() {
       >
         <div className="px-6 py-7 mt-5 items-center">
           <div>
+            <Link href="/"
+             className="text-decoration-none"
+             onClick={() => setIsMenuOpen(false)}
+             >
             <Image
               src="/profileSide.jpg"
               alt="Profile"
@@ -82,6 +86,7 @@ function Nav() {
               height={100}
               className="rounded-full mx-auto mt-5 mb-5"
             />
+            </Link>
           </div>
 
           <Link
