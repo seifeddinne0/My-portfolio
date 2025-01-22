@@ -13,9 +13,8 @@ function Contact(){
         initial={{y:100,opacity:0}} 
         whileInView={{y:0,opacity:1}} 
         transition={{duration:0.5}}
-
         className="mx-auto max-w-2xl text-center" >
-          <p className="mt-2 text-lg/8 texredoutline-red-500">Let&apos;s create something together.</p>
+          <p className="mt-2 text-white text-lg/8 t">Let&apos;s create something together.</p>
         </motion.div>
         <form action="https://formspree.io/f/xyzzzdzr" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
