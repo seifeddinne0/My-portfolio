@@ -10,7 +10,7 @@ return(
       <div>
         <motion.h4 initial={{x:-100,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:0.7,delay:0.2}} className="xl:text-lg text-xl text-white montserrat mb-2.5">I am</motion.h4>
         <motion.h1 initial={{x:-100,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:0.8,delay:0.4}} className="xl:text-4xl text-4xl font-bold montserrat leading-tight mb-2.5 text-red-600">Seif Eddine Ben Achour</motion.h1>
-        <motion.p initial={{x:-100,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:0.9,delay:0.6}} className="text-lg xl:text-lg text-white montserrat mb-2.5">Full stack developer</motion.p>
+        <motion.p initial={{x:-100,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:0.9,delay:0.6}} className="text-lg xl:text-lg text-white montserrat mb-2.5">Web developer</motion.p>
         <motion.div 
         initial={{x:-100,opacity:0}} 
         whileInView={{x:0,opacity:1}} 

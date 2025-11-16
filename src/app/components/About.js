@@ -14,7 +14,7 @@ function About(){
           <Image className="rounded-full w-10/12 md:w-auto sm:w-1/2 md:rounded-lg lg:w-10/12 xl:w-1/2 lg:h-1/2 mx-auto"src="/AboutPhoto.jpg" alt="profile Photo" width={700} height={700} />
         </motion.div>
         <motion.div initial={{x:100,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:1}} className="flex justify-center items-center max-w-[700px] mx-auto p-5 rounded-xl bg-black bg-opacity-20">
-          <p className="text-wrap roboto text-lg text-white md:text-lg">I&apos;m a Computer science student with a deep enthusiasm for technology and hands-on experience in front-end development. I enjoy bringing creative designs to life on the web and exploring data to uncover insights. With a background in robotics and experience with Arduino, I’m always eager to learn new technologies and take on challenges that push my boundaries.</p>
+          <p className="text-wrap roboto text-lg text-white md:text-lg">As a Computer Science student, I have a deep enthusiasm for technology and hands-on experience in front-end development. I enjoy bringing creative designs to life on the web and exploring data to uncover insights. With a background in robotics and experience with Arduino, I am always eager to learn new technologies and take on challenges that push my boundaries.</p>
         </motion.div>
       </div>
     </div>
