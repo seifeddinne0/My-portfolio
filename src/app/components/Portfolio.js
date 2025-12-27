@@ -31,7 +31,7 @@ function Portfolio() {
             "/flashcards/flashcard7.png", "/flashcards/flashcard8.png", "/flashcards/flashcard9.png"
           ]}
           altName="AI Flashcards"
-          githubLink="https://github.com/seifeddinne0/AI-Flashcards"
+          githubLink="https://github.com/seifeddinne0/Flashcards-web-app"
         >
           <h2 className="text-xl font-bold mb-2">AI Flashcards</h2>
           <p className="text-gray-700">
@@ -44,7 +44,7 @@ function Portfolio() {
             "/qrcode/qr1.png", "/qrcode/qr2.png", "/qrcode/qr3.png", "/qrcode/qr4.png"
           ]}
           altName="QR Generator"
-          githubLink="https://github.com/seifeddinne0/QR-Generator"
+          githubLink="https://github.com/seifeddinne0/QR-generator"
         >
           <h2 className="text-xl font-bold mb-2">QR Generator</h2>
           <p className="text-gray-700">
