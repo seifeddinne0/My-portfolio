@@ -20,7 +20,7 @@ function Presentation() {
             <Link href="#Contact">
               <Button title="Contact Me" />
             </Link>
-            <a href="/cv seif eddine.pdf" download="Seif_Eddine_Ben_Achour_CV.pdf">
+            <a href="/cv seif eddine ben achour.pdf" download="Seif_Eddine_Ben_Achour_CV.pdf">
               <Button title="Download CV" />
             </a>
           </motion.div>
