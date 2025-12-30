@@ -31,7 +31,7 @@ function Presentation() {
           transition={{ duration: 1 }}
           className="w-10/12 lg:w-6/12 lg:ml-48">
           <Image
-            src="/profile.jpg"
+            src="/profile-pic.png"
             className="lg:w-12/12 md:rounded-full sm:w-2/3 sm:mx-auto xl:w-1/2 md:w-3/5 lg:w-[600px] rounded-lg md:mx-auto lg:ml-auto img-fluid"
             alt="profile photo"
             width={700}

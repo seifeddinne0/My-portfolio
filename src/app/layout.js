@@ -16,9 +16,9 @@ export const metadata = {
   description: "Seif Eddine's personal website",  
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }) { 
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
