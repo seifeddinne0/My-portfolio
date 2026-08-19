@@ -9,7 +9,7 @@ function Presentation() {
           <h1 className="my-4  xl:text-4xl text-4xl font-bold montserrat leading-tight mb-2.5 text-red-600">I am Seif Eddine Ben Achour</h1>
           <p className="text-lg xl:text-lg text-white montserrat mb-2.5">Web developer</p>
           <div className="my-4 flex flex-wrap justify-center gap-4 md:justify-start">
-            <a href="/cv seif eddine ben achour.pdf" download="Seif_Eddine_Ben_Achour_CV.pdf" className="inline-flex items-center rounded bg-red-600 px-6 pb-2 pt-2.5 text-xs font-semibold uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-red-700">
+            <a href="/cv seifeddine ben achour.pdf" download="Seif_Eddine_Ben_Achour_CV.pdf" className="inline-flex items-center rounded bg-red-600 px-6 pb-2 pt-2.5 text-xs font-semibold uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-red-700">
               Download CV
             </a>
           </div>
