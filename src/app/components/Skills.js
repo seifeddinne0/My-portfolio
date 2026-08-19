@@ -8,7 +8,7 @@ import Horizontaline from './Horizontaline';
 import Skillscard from './Skillscard';
 function Skills(){
     return(
-      <div>
+      <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
         <Horizontaline>
           <h1 className="mx-2 text-2xl montserrat text-center text-red-600">My Skills</h1>
         </Horizontaline>     

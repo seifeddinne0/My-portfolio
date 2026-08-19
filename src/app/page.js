@@ -1,7 +1,5 @@
 "use client" 
 import React, { useState, useEffect } from "react";
-import Contact from "./components/Contact";
-import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
 import Presentation from "./components/Presentation";
 import About from "./components/About";
@@ -22,14 +20,12 @@ export default function Home() {
 
   return (
     <>
-       {isLoading ? <Loading /> :  <div className="overflow-x-hidden" style={{ position: "relative", zIndex: 1 }} id="Hero">
+       {isLoading ? <Loading /> :  <div className="overflow-x-hidden pt-6" style={{ position: "relative", zIndex: 1 }} id="Hero">
        <VantaNet/>
-       <Nav/>
        <Presentation/>
        <About/>
        <Skills/> 
        <Portfolio/> 
-       <Contact/>
        <Footer/>
      </div>}
      </>

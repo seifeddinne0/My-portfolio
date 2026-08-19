@@ -26,7 +26,7 @@ const VantaNet = () => {
             backgroundColor: 0x202025,
             points: 11.0,
             maxDistance: 20.0,
-            spacing: 16.0,
+            spacing: 19.0,
           });
         };
         document.body.appendChild(scriptVanta);
